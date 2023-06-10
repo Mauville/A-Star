@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra
 
 # List of source files
-SOURCES = Driver.c Main.c AStar.c PriorityQueue.c
+SOURCES = Driver.c Main.c PriorityQueue.c
 
 # List of header files
 HEADERS = Driver.h Node.h PriorityQueue.h
