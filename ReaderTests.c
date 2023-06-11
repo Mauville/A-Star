@@ -15,7 +15,7 @@ void printStrings(char** strings) {
     }
 }
 
-int main() {
+int runReaderTests() {
     const char* filename = "FRANCE.MAP";
 
     char** strings = readStringsFromFile(filename);

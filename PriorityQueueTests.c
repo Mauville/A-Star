@@ -102,7 +102,7 @@ void testIsInPriorityQueue() {
     printf("isInPriorityQueue test passed.\n");
 }
 
-int test() {
+int runPriorityQueueTests() {
     testInitializePriorityQueue();
     testEnqueue();
     testDequeueMin();
