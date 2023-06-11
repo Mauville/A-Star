@@ -2,10 +2,10 @@ CC = gcc
 CFLAGS = -Wall -Wextra
 
 # List of source files
-SOURCES = Driver.c Main.c PriorityQueue.c
+SOURCES = Driver.c Main.c PriorityQueue.c Reader.c
 
 # List of header files
-HEADERS = Driver.h Node.h PriorityQueue.h
+HEADERS = Driver.h Node.h PriorityQueue.h Reader.h
 
 # Object files generated from source files
 OBJECTS = $(SOURCES:.c=.o)
@@ -14,7 +14,7 @@ OBJECTS = $(SOURCES:.c=.o)
 EXECUTABLE = program
 
 # List of test source files
-TEST_SOURCES = PriorityQueue.c PriorityQueueTests.c
+TEST_SOURCES = PriorityQueue.c Reader.c PriorityQueueTests.c ReaderTests.c
 
 # Object files generated from test source files
 TEST_OBJECTS = $(TEST_SOURCES:.c=.o)
